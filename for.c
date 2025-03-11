@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-int main(){
+int main() {
 
-    int i = 1;
-
-    while (i <= 8)
+    for (int i = 1; i <= 10; i++)
     {
         printf("%d\n", i);
-        i++;
     }
+    
 
     return 0;
 }
